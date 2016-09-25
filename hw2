@@ -1,0 +1,71 @@
+<html>
+<head>
+<link rel="icon"href="http://www.cinnimarket.com/wp-content/uploads/2016/02/casaIcona.png" type="image/x-icon">
+<title>Welcome to Mary</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta http-equiv="DESCRIPTION" content="Личная страница">
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+   </head>
+
+   <body>
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+			<div class="container"> 
+				<div class="navbar-header"> 
+					<a href="https://ling.hse.ru/" class="navbar-brand">Школа лингвистики представляет:</a> 
+				</div>
+		</nav>
+<header style="background-color:#87CEFA; padding-top:40px; "> 
+			<div class="container"> 
+				<div class="row">
+					<div class="col-md-7">
+						<br/><br/>
+						<h1><span style="font-size:30pt; font-family:Book Antiqua">Мария Владимировна</span></h1>
+						<hr>
+						<p><i>Микро человек</i></p> 
+						<hr>
+						<p><h3><b><span style="font-size:20pt; font-family:Book Antiqua">Особые приметы</span></b></h3></p>
+						<p><h5><i><li>165/45 (рост/вес)</i></h5></p>
+						<p><h5><i><li>русые волосы</i></h5></p>
+						<p><h5><i><li>на вид 13-14 лет</i></h5></p>
+					 <img src="http://gifdanceparty.giphy.com/assets/dancers/smooch.gif" align="center">	
+	                </div>
+					<div class="col-md-5">
+        	            <img src="https://pp.vk.me/c626527/v626527796/2d250/K6hpVaRP6SE.jpg" title="Потрясающая личность" alt="Мария" style="height:320px; width:426px; margin:50px 20px 10px 20px; " >
+					<p><h3><b><center><span style="font-size:20pt; font-family:Book Antiqua">Контакты</span></b></h3></p>
+					<p><h3><center><a target="_blank" href="https://vk.com/night.furies"><img src="http://androiddownloades.com/images/vk-app-logo.png" border="0" style="height:30px; width:30px alt="Вк">Вк</a></h3></p>
+					<p><h3><center><a target="_blank" href="https://www.instagram.com/spectrofobia/"><img src="https://dl43dwdevweoj.cloudfront.net/images/ig.png" border="0" style="height:30px; width:30px alt="Insta">Insta</a></h3></p>
+					<p><h3><center><a href="mailto:mvyureva@edu.hse.ru">Почта</a></h3></p>
+					<p><h4><center><MARQUEE BGCOLOR=#87CEFA DIRECTION=left>Телефон для экстренных вызовов: 89099328095</MARQUEE></h4></p>
+					</div>
+			     </div>
+	             
+			</div>
+		</header>
+		<section id="portfolio">
+		<div class="container">
+				<div class="col-md-8">
+		<p><h2><span style="font-size:25pt; font-family:Book Antiqua">Адреса проживания</span></h2></p>
+		<p><h4><li><span style="font-size:15pt; font-family:Wingdings">Дом </span><i>(м.Академическая)</i></h4></p>
+		<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.9505844467944!2d37.582757715669686!3d55.68984688053661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ca2dc77cb0d%3A0xf57fdebafc4beea5!2z0YPQuy4g0JLQuNC90L7QutGD0YDQvtCy0LAsIDUvNtC6Miwg0JzQvtGB0LrQstCwLCAxMTc0NDc!5e0!3m2!1sru!2sru!4v1474167604318" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+		<p><h4><li><span style="font-size:15pt; font-family:Wingdings">Факультет ФИКЛ НИУ Вшэ </span><i>(м.Курская)</i></h4></p>
+		<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.5244789741555!2d37.66132721567319!3d55.76676228055707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a86459ca06f%3A0xf0285a0fc1b5edc0!2z0KHRgtCw0YDQsNGPINCR0LDRgdC80LDQvdC90LDRjyDRg9C7LiwgMjEvNCwg0JzQvtGB0LrQstCwLCAxMDUwNjY!5e0!3m2!1sru!2sru!4v1474167491497" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+				</div>
+				<nav>
+				<h3><span style="font-size:25pt; font-family:Book Antiqua">Изучаемые языки</span></h3>
+				<p><span style="font-size:20pt; font-family:Book Antiqua"><li>Английский</span></li></p>
+				<p><span style="font-size:20pt; font-family:Book Antiqua"><li>Латинский</span></li></p>
+				<p><span style="font-size:20pt; font-family:Book Antiqua"><li>Испанский</span></li></p>
+				<p><span style="font-size:20pt; font-family:Book Antiqua"><li>Старославянский (с 3 модуля)</span></li></p>
+				</nav>
+				</div>
+				</section>
+								
+		<footer class="bs-docs-footer"> 
+			<div class="container"> 
+				<p style="text-align:right; ">&copy; Мария Юрьева, 2016г.</p> 
+			</div>
+		</footer>
+</body>
+</html>
