@@ -1,0 +1,13 @@
+Вариант 1.
+word = input("Введите слово: ")
+repository = []
+
+while word !=(""):
+    repository.append(word)
+    word = input("Введите слово: ")
+
+for i in repository[::-1]:
+    a = list(i)
+    del a[-3]
+    print("".join(a[::-1]))
+    
