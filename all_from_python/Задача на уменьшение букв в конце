@@ -1,0 +1,6 @@
+w = input('Введите слово')
+s = len(w)
+print (w)
+for i in range (s):
+    w = w[:-1]
+    print (w)
