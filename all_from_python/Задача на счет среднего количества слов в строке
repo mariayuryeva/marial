@@ -1,0 +1,8 @@
+a = input("Name of file ")
+f = open(a, 'r')
+m = f.readlines()
+d = 0
+for el in m:
+    el = el.split(' ')
+    d += len(el)
+print (d/len(m))
