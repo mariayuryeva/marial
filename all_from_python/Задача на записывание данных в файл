@@ -1,0 +1,20 @@
+Вариант 1:
+n = input('Имя: ')
+a = input('Возраст: ')
+c = input('Цвет: ')
+m = input('Музыка: ')
+d = input('Мечта: ')
+f = open ("information.txt", 'w')
+f.writelines(n)
+f.writelines(a)
+f.writelines(c)
+f.writelines(m)
+f.writelines(d)
+
+Вариант 2:
+a = []
+for i in range(5):
+    a.append( input('1.name, 2. age, 3. colour, 4.music, 5.dream: '))
+f = open("information.txt", 'w')
+for el in a:
+    f.writelines(el)
