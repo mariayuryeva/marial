@@ -1,0 +1,16 @@
+a = input('Введите имя файла ')
+f = open (a, 'r')
+m = f.readlines()
+w = input("введите слово на ing ")
+d = 0
+h = 0
+for el in m:
+    el = el.split(" ")
+    for i in el:
+        if i[-3:] == "ing":
+            d = d+1
+        if i == w:
+            h = h+1
+print (d)
+print (h)
+    
