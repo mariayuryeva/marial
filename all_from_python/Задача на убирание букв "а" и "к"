@@ -1,4 +1,4 @@
-Вариант 1.
+#Вариант 1.
 s = input() 
 a = s[1::2]
 for i in a:
@@ -9,7 +9,7 @@ for i in a:
     else: 
         print (i)
         
-Вариант 2
+#Вариант 2
 s = input() 
 i = input(s[1::2]) 
   if i == "а": 
