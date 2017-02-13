@@ -1,4 +1,4 @@
-Вариант 1:
+#Вариант 1:
 n = input('Имя: ')
 a = input('Возраст: ')
 c = input('Цвет: ')
@@ -11,7 +11,7 @@ f.writelines(c)
 f.writelines(m)
 f.writelines(d)
 
-Вариант 2:
+#Вариант 2:
 a = []
 for i in range(5):
     a.append( input('1.name, 2. age, 3. colour, 4.music, 5.dream: '))
