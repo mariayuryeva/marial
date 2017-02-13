@@ -1,0 +1,16 @@
+import re
+a = input ('name ')
+f = open(а, 'r', encoding = 'utf-8')
+p = input ("new ")
+h = open(p, 'w', encoding = 'utf-8')
+
+m = f.readlines()
+for el in m:
+    el = re.split(' ', el)
+    elString = ""
+    for word in el:
+        word = re.sub(u'комар', u'слон', word)
+        word = re.sub(u'Комар', u'Слон', word)
+        elString += word + ' '
+    el = elString
+    h.write(el)
