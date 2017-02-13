@@ -1,7 +1,7 @@
 import re
-a = input ('name ')
+a = input ('name of file: ')
 f = open(а, 'r', encoding = 'utf-8')
-p = input ("new ")
+p = input ("new file: ")
 h = open(p, 'w', encoding = 'utf-8')
 
 m = f.readlines()
