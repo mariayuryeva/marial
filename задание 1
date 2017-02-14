@@ -1,0 +1,16 @@
+a = input("file ")
+f = open(a, 'r', encoding = 'utf-8') 
+m = f.readlines() 
+q = "</teiHeader>" 
+d = 0 
+for el in m: 
+    el = el.split(q) 
+    if len(el) == 2: 
+        break 
+    else:
+        for i in el:
+            i = i.split("qwerty\n")
+        d+= 1
+ z = input('new file ')
+x = open(z, 'w', encoding = 'utf-8')
+f.writelines(d)
