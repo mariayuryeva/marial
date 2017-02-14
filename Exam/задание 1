@@ -13,4 +13,4 @@ for el in m:
         d+= 1
  z = input('new file ')
 x = open(z, 'w', encoding = 'utf-8')
-f.writelines(d)
+f.writelines(str(d))
