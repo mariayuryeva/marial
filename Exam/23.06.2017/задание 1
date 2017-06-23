@@ -1,0 +1,24 @@
+import os
+import re
+
+def score_5():
+    path = os.getcwd()+'\\news'
+    
+    n = 0
+
+    new_file = open('score_5.txt', 'w')
+    for file in os.listdir(path):
+        f = open(path+'\\'+file, 'r+')
+        for r in f:
+            if '<se>' in r:
+                n+=1
+
+        new_file = open('score_5.txt', 'a')
+        new_file.write(file+'\t'+str(n)+'\n')
+        n = 0
+
+def main():
+    score_5()
+
+if __name__ == '__main__':
+    main()
