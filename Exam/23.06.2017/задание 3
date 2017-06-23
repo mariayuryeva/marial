@@ -1,1 +1,35 @@
 
+import os
+import re
+
+
+def score_10():
+    path = '{}\\news'.format(os.getcwd())
+    text = []
+    q = 0
+    qq = 0
+    ttt = ''
+    p = re.compile(r"[`]*[а-яёА-ЯЁ]+[`]+[а-яёА-ЯЁ]+[`]*", re.U)
+    pr = re.compile(r"[а-яёА-ЯЁ]+[`]*[а-яёА-ЯЁ]+", re.U)
+    for f in os.listdir(path):
+        o = open('{}\\{}'.format(path, f), 'r+')
+        for line in o:
+            if '<w>' in line:
+                text.append(line)
+    sv = open('score_10.txt', 'w+')
+    sv = open('score_10.txt', 'a+')
+    for line in text:
+        if 'PR' in line and 'S' in text[q+1] and 'loc' in text[q+1]:
+            try:              
+                sv.write('{} {}\tПредложение не успела сделать!:(\n'.format(pr.search(line).group().replace('`', ''), p.search(text[q+1]).group().replace('`', '')))
+                qq = 0
+                
+            except:
+                None
+        q +=1
+
+def main():
+    score_10()
+
+if __name__ == '__main__':
+    main()
