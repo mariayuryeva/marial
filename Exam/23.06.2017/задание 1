@@ -1,5 +1,4 @@
 import os
-import re
 
 def score_5():
     path = os.getcwd()+'\\news'
