@@ -1,1 +1,43 @@
+import os
+import re
+
+def score_5():
+    path = os.getcwd()+'\\news'
+    
+    n = 0
+
+    new_file = open('score_5.txt', 'w')
+    for file in os.listdir(path):
+        f = open(path+'\\'+file, 'r+')
+        for r in f:
+            if '<se>' in r:
+                n+=1
+
+        new_file = open('score_5.txt', 'a')
+        new_file.write(file+'\t'+str(n)+'\n')
+        n = 0
+
+def score_8():
+    new_csv = open('score_8.csv', 'w+')
+    new_csv.write('Название файла\tАвтор\tТематика текста')
+    new_csv = open('score_8.csv', 'a')
+    path = os.getcwd()+'\\news'
+    
+    for file in os.listdir(path):
+        new_csv.write('\n'+file+'\t')
+        f = open(path+'\\'+file, 'r+')
+        for r in f:
+            if 'author' in r:
+                new_csv.write(r[r.index('=')+1:r.index('name')].replace('"', '').strip()+'\t')
+            if 'topic' in r:
+                new_csv.write(r[r.index('=')+1:r.index('name')].replace('"', '').strip())
+    new_csv.close()
+    f.close()
+
+def main():
+    score_5()
+    score_8()
+
+if __name__ == '__main__':
+    main()
 
